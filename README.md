@@ -2,7 +2,7 @@
 
 $searchObject = FSearch/FSearch::create($filename);
 
-$result = $searchObject->search($needle);
+$result = $searchObject->search($needle); //array('line' => 0, 'position' => 0)
 
 ---
 
